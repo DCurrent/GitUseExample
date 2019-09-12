@@ -12,6 +12,7 @@
 		859854D3232ADA0200B39DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859854D1232ADA0200B39DC4 /* Main.storyboard */; };
 		859854D5232ADA0200B39DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859854D4232ADA0200B39DC4 /* Assets.xcassets */; };
 		859854D8232ADA0200B39DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859854D6232ADA0200B39DC4 /* LaunchScreen.storyboard */; };
+		859854E0232ADFB400B39DC4 /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 859854DF232ADFB400B39DC4 /* MapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		859854D4232ADA0200B39DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859854D7232ADA0200B39DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859854D9232ADA0200B39DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859854DF232ADFB400B39DC4 /* MapForItinerary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				859854D4232ADA0200B39DC4 /* Assets.xcassets */,
 				859854D6232ADA0200B39DC4 /* LaunchScreen.storyboard */,
 				859854D9232ADA0200B39DC4 /* Info.plist */,
+				859854DF232ADFB400B39DC4 /* MapForItinerary.m */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					859854C9232ADA0200B39DC4 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				859854D0232ADA0200B39DC4 /* ViewController.swift in Sources */,
+				859854E0232ADFB400B39DC4 /* MapForItinerary.m in Sources */,
 				859854CE232ADA0200B39DC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FTFYR44L55;
 				INFOPLIST_FILE = GitUseExample/Info.plist;
@@ -291,6 +297,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uky.cs.GitUseExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FTFYR44L55;
 				INFOPLIST_FILE = GitUseExample/Info.plist;
