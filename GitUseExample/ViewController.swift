@@ -14,7 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func ButtonClicked(_ sender: Any) {
+        
+        print("This is a git tutorial.")
+    }
 }
 
