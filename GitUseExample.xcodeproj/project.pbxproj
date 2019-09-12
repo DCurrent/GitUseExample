@@ -62,7 +62,7 @@
 				859854D4232ADA0200B39DC4 /* Assets.xcassets */,
 				859854D6232ADA0200B39DC4 /* LaunchScreen.storyboard */,
 				859854D9232ADA0200B39DC4 /* Info.plist */,
-				859854DF232ADFB400B39DC4 /* MapForItinerary.m */,
+				859854DF232ADFB400B39DC4 /* MapForItinerary.swift */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				859854D0232ADA0200B39DC4 /* ViewController.swift in Sources */,
-				859854E0232ADFB400B39DC4 /* MapForItinerary.m in Sources */,
+				859854E0232ADFB400B39DC4 /* MapForItinerary.swift in Sources */,
 				859854CE232ADA0200B39DC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
